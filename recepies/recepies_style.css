@@ -93,9 +93,9 @@ img.ingredient {
 
 .navigation_buttons {
     display: flex;
-    justify-content: center; /* center the buttons horizontally */
-    gap: 30px;               /* space between the two buttons */
-    margin: 30px 0;          /* space above and below the button row */
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
 }
 .navigation_buttons button {
     background-color: #007BFF;

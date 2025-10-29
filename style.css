@@ -1,46 +1,75 @@
-
 #header_title {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
-}
-
-.slider-container {
-    position: relative;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
-
-.image-slider {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-}
-
-.image-slider img {
-    width: 200px;
-    height: 120px;
-    border-radius: 8px;
-    object-fit: cover;
+    color: #007BFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .category {
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    justify-content: space-between;
+    padding: 10px 10%;
     margin-top: 20px;
-}
-#se_more_Bakning {
-    background-color: #4CAF50;
+    background: linear-gradient(135deg, #a0d8ff, #007BFF);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     color: white;
+    font-weight: bold;
+}
+
+.category h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+#se_more_Bakning {
+    background-color: #ffd700;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    padding: 5px 12px;
     cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+#se_more_Bakning:hover {
+    transform: scale(1.1);
+}
+
+.slider-container {
+    position: relative;
+    width: 90%;
+    margin: 10px auto 30px auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 5px;
+    border-radius: 12px;
+    background: #e0f7ff;
+}
+
+.image-slider {
+    display: flex;
+    gap: 12px;
+}
+
+.image-slider img {
+    width: 200px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.image-slider img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .menubar {
@@ -59,11 +88,11 @@
 }
 
 .menubar button {
-    background-color: white;
+    background-color: #fffae6;
     color: #007BFF;
     border: none;
     padding: 10px 20px;
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -77,4 +106,5 @@
 
 body {
     padding-bottom: 70px;
+    background: #f0f8ff;
 }
