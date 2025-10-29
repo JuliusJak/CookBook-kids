@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/recepies/recepies_style.css">
 </head>
 <body>
     <h1>Vaniljmuffins</h1>
-    <h2>Ingredienser</h2>
-    <ol>
-        <li>3 deciliter vetemjöl</li>
-        <li>3 matskedar mjölk</li>
-        <li>200 gram smält smör eller margarin</li>
-
-    </ol>
     <h2>Instruktioner</h2>
 
     <ol>
@@ -27,7 +21,7 @@
     <video src="temp"></video> <!-- https://www.w3schools.com/tags/tag_video.asp -->
 
 
-    <div>
+    <div class="navigation_buttons">
         <button onclick="window.location.href='./vaniljmuffins_page5.html'">
             Tillbaka
         </button>
@@ -38,10 +32,16 @@
     </div>
 
     <div class="menubar">
-        <button>Hem</button>
+        <a href="../../index.html">
+            <button>Hem</button>
+        </a>
         <button>Sök</button>
-        <button>Favoriter</button>
-        <button>Profil</button>
+        <a href="../../favoriter.html">
+            <button>Favoriter</button>
+        </a>
+        <a href="../../profile.html">
+            <button>Profil</button>
+        </a>
     </div>
 </body>
 </html>
