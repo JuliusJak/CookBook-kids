@@ -1,8 +1,9 @@
 
 body {
+    max-width: 420px;
     font-family: 'Arial', sans-serif;
     background-color: #f0f8ff;
-    margin: 0;
+    margin: 0 auto;
     padding-bottom: 70px;
     text-align: center;
 }
@@ -61,7 +62,9 @@ ol button:hover {
 .menubar {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 420px;
     width: 100%;
     display: flex;
     justify-content: space-around;

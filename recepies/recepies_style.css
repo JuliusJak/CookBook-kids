@@ -116,8 +116,9 @@ img.ingredient {
 .menubar {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 420px;    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -146,7 +147,10 @@ img.ingredient {
 }
 
 body {
+    max-width: 420px;
+    margin: 0 auto;
     padding-bottom: 70px;
+    background: #f0f8ff;
 }
 
 video {
